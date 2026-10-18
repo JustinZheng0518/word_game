@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>未完的夏天 · 校园人生</title>
+<link rel="stylesheet" href="style.css">
+<body>
+<aside><a class="brand" href="#">未完的夏天<span>THE DAYS WE BECOME</span></a><div class="profile"><div class="avatar">夏</div><h2>夏一 · 12岁</h2><p>南川中学 · 初一（3）班</p></div><div class="nav active">◉　我的生活 <small>01</small></div><button class="nav" id="diaryBtn">▤　人生手记 <small id="count">0</small></button><section class="stats"><label>精力 <b id="energy"></b></label><progress id="energyBar" max="100"></progress><label>压力 <b id="stress"></b></label><progress id="stressBar" max="100"></progress><label>钱包 <b id="money"></b></label><label>林晓 · 好感 <b id="friend"></b></label></section><div class="save"><button id="save">保存此刻 ↗</button><button id="reset">重新开始</button><p>你的每次选择，都在留下痕迹。</p></div></aside>
+<main><header><span>人生没有标准答案</span><div><span class="dot"></span><select id="mode"><option value="demo">本地演示</option value="ai">AI 自由叙事</option></select></div></header><div class="content"><div class="chapter">CHAPTER 01　/　故事的开始</div><h1>九月，风从走廊吹来。</h1><div class="meta"><span id="time">9月2日 · 星期一</span><span>初秋　24°C</span><span>南川中学</span></div><div class="scene"><div class="sun"></div><div class="building"><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="ground"></div><div class="scene-caption">NANCHUAN MIDDLE SCHOOL <span>新学期 / 新的可能</span></div></div><div id="notice" role="status">当前为本地规则演示：会回应部分行动，但不具备 AI 的自由理解能力。</div><article id="story"></article><section id="diary" hidden><h3>人生手记</h3><div id="entries"></div></section><section class="actions"><div class="section-label">接下来，你想怎么做？<span>选择一个方向，也可以写下自己的想法</span></div><div id="choices"></div><form id="form"><label for="input">不在选项里的人生，也可以试试。</label><div class="input-row"><textarea id="input" rows="2" maxlength="1000" placeholder="例如：我想先问问她喜欢什么，再决定要不要一起去……"></textarea><button id="submit">继续故事 ↗</button></div></form></section><footer>慢慢来。属于你的故事，才刚刚开始。<span>进度保存在此浏览器</span></footer></div></main>
+<script src="app.js"></script>
+</body></html>
